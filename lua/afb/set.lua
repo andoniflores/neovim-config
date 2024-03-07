@@ -22,6 +22,9 @@ vim.opt.scrolloff = 8
 
 vim.opt.updatetime = 50
 
+vim.opt.list = true
+vim.opt.listchars = { space = '' }
+
 vim.opt.colorcolumn = "100"
 
 vim.api.nvim_set_hl(0, "SignColumn", {bg = "none"})
