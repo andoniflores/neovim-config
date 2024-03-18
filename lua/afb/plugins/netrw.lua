@@ -3,5 +3,4 @@ return{
     config = function()
         require('netrw').setup({})
     end
-
 }
